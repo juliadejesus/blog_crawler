@@ -12,7 +12,7 @@
 	<p> I was supposed to write a blog last week because it is due on Thursday. Instead I procrastinated and now I have not done anything for my blog!!! HAHAHAHA </p>
 
 	<br/>
-	<p> This is a list of the day I said I was going to write my blog: </p>
+	<p> This is a list of the days I said I was going to write my blog: </p>
 	<ul> 
 		<li>Tuesday</li>
 		<li>Wednesday</li>
