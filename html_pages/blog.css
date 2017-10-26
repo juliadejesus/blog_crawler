@@ -1,0 +1,25 @@
+h4 {
+	color: red;
+	font: Courier;
+	text-align: center;
+	margin-right:auto;
+	margin-left: auto;
+}
+
+th {
+	background-color: #E18B8B;
+}
+
+table, td, th {
+	border: 1px solid blue;
+	border-width: 1px;
+	border-style: dotted;
+	border-color: red;
+}
+table {
+	font-size: 15px;
+	font-family: Courier;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
