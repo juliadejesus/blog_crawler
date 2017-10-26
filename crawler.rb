@@ -1,10 +1,11 @@
-class Crawler
-	def crawl
-    entry = BlogEntry.new
-    entry.author = "Julia"
-    entry.title = "Paper Forevvvvver"
+require 'mechanize'
 
-    display_name = "#{entry.title} By: The Great #{entry.author}"
-    puts display_name
-  end
+class Crawler
+	def crawl (url)
+	 agent = Mechanize.new
+	 agent.agent.http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+
+	 page = agent.get(url)
+	 puts page.uri
+	end
 end
